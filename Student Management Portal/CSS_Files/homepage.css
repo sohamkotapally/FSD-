@@ -1,0 +1,84 @@
+.card-link {
+    text-decoration: none; 
+    color: inherit;        
+    display: block;
+}
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card.mb-4.card-hover{
+    height: 150px;
+}
+/* /CSS_Files/homepage.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f6f9;
+}
+
+main {
+    flex: 1;
+}
+
+/* Custom Card Hover Effects */
+.card-hover {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 180px;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    border-color: #6c757d;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-link:hover .card-title {
+    color: #0d6efd;
+    transition: color 0.2s ease-in-out;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    color: #333;
+}
+
+footer {
+    background-color: #212529;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+footer a {
+    text-decoration: none;
+    transition: opacity 0.2s ease-in-out;
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
+
+.p-20 {
+    padding: 10px 40px;
+}
